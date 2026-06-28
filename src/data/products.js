@@ -1,3 +1,5 @@
+import { asset } from "../utils/asset";
+
 export const categories = [
   "All",
   "Engineering",
@@ -56,15 +58,15 @@ export const products = [
 
     dimensions: "50 x 30 x 5 mm",
 
-    thumbnail: "/images/products/anime.jpg",
+    thumbnail: asset("/images/products/anime.jpg"),
 
     gallery: [
-      "/images/products/anime.jpg",
-      "/images/products/case.jpg",
-      "/images/products/gear.jpg",
+      asset("/images/products/anime.jpg"),
+      asset("/images/products/case.jpg"),
+      asset("/images/products/gear.jpg"),
     ],
 
-    model3d: "/models/keychain.glb",
+    model3d: asset("/models/keychain.glb"),
 
     specifications: [
       {
@@ -139,15 +141,15 @@ export const products = [
 
     dimensions: "50 x 30 x 5 mm",
 
-    thumbnail: "/images/products/anime.jpg",
+    thumbnail: asset("/images/products/anime.jpg"),
 
     gallery: [
-      "/images/products/anime.jpg",
-      "/images/products/case.jpg",
-      "/images/products/gear.jpg",
+      asset("/images/products/anime.jpg"),
+      asset("/images/products/case.jpg"),
+      asset("/images/products/gear.jpg"),
     ],
 
-    model3d: "/models/Gear.glb",
+    model3d: asset("/models/Gear.glb"),
 
     specifications: [
       {

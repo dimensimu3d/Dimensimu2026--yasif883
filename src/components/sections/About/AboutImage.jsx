@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import { asset } from "../../../utils/asset";
 import Card from "../../ui/Card";
 
 export default function AboutImage() {
@@ -20,7 +20,7 @@ export default function AboutImage() {
     >
       <Card>
         <img
-          src="/images/about.jpg"
+          src={asset("/images/about.jpg")}  
           alt="About"
           className="
                     w-full

@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { asset } from "../../../../../utils/asset";
 
 export default function GalleryMainImage({ product, image }) {
   const [error, setError] = useState(false);
 
-  const src = !error && image ? image : "/images/placeholder.webp";
+  const src = !error && image ? image : asset("/images/placeholder.webp");
 
   return (
     <motion.div
