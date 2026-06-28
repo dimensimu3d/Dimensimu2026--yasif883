@@ -1,0 +1,16 @@
+:root {
+  --primary: #00f5ff;
+  --secondary: #7c3aed;
+  --accent: #00ff9d;
+
+  --bg: #051416;
+  --surface: rgba(255, 255, 255, 0.05);
+
+  --text: #ffffff;
+  --text-muted: #94a3b8;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
