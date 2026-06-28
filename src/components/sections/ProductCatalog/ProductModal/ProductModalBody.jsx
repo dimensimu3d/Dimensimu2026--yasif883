@@ -19,7 +19,7 @@ export default function ProductModalBody({ product, selectedVariant, onVariantCh
         product={product}
         selectedVariant={selectedVariant}
         onVariantChange={onVariantChange}
-        phone={"628973172170"}
+        phone={"6289677725622"}
       />
     </div>
   );
